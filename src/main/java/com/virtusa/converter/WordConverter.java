@@ -1,4 +1,4 @@
-package com.virtusa.converter.itf;
+package com.virtusa.converter;
 
 public interface WordConverter {
 	static long minValue=1;

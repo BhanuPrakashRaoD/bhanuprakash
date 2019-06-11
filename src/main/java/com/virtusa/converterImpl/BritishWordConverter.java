@@ -1,6 +1,6 @@
-package com.virtusa.converter.impl;
+package com.virtusa.converterImpl;
 
-import com.virtusa.converter.itf.WordConverter;
+import com.virtusa.converter.WordConverter;
 
 public class BritishWordConverter implements WordConverter {
 	 public enum hundreds {OneHundred, TwoHundred, ThreeHundred, FourHundred, FiveHundred, SixHundred, SevenHundred, EightHundred, NineHundred}
@@ -32,10 +32,6 @@ public class BritishWordConverter implements WordConverter {
 	                i++;
 	            }
 	        }
-/*	        if(i > 0)
-	            System.out.println(text);
-	        else
-	            System.out.println("Zero");*/
 	        return text;
 	    }
 
